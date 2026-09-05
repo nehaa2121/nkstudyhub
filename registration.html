@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration - NK Study Hub</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Student Registration</h1>
+
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="subjects.html">Subjects</a> |
+                <a href="notes.html">Notes</a> |
+                <a href="timetable.html">Timetable</a> |
+                <a href="registration.html">Registration</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+                        <label>Full name:</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email:</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Phone:</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Date o Birth:</label>
+                        <input type="date" name="dob">
+                    </p>
+                    <p>
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other
+                    </p>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Course Information</legend>
+
+                    <p>
+                        <label>Select Course:</label>
+                        <select name="course">
+                            <option>-- Select Course --</option>
+                            <option>BCA</option>
+                            <option>MCA</option>
+                            <option>Bsc Computer Science</option>
+                            <option>BTech Computer Science</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Subjects:</label>
+                    </p>
+                    <input type="checkbox" name="subjects" value="html">HTML
+                    <input type="checkbox" name="subjects" value="css">CSS
+                    <input type="checkbox" name="subjects" value="javascript">JavaScript
+                    <input type="checkbox" name="subjects" value="python">Python
+                    <input type="checkbox" name="subjects" value="dbms">DBMS
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <p>
+                        <label>Address:</label>
+                    
+                    <textarea rows="5" cols="40"></textarea>
+                    </p>
+
+                    <p>
+                        <label>Upload Photo:</label>
+                        <input type="file">
+                    </p>
+
+                    <p>
+                        <label>Password:</label>
+                        <input type="password">
+                    </p>
+                </fieldset>
+                <br>
+                <input type="button" value="Register">
+
+                <input type="reset" value="Reset">
+            </form>
+        </main>
+        
+        <hr>
+        <footer>&copy; 2026 NK Study HUb</footer>
+    
+    </body>
+</html>
